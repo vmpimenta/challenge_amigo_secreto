@@ -7,11 +7,11 @@ function limparNome() {
 }
 
 // Função para mostrar a lista com os nomes adicionados;
-function nomeNaLista (){
+function nomeNaLista() {
     let ul = document.getElementById("listaAmigos"); // Armazena o elemento ul listaAmigos na variavel ul pra melhorar a manipulação;
     ul.innerHTML = ""; // Garante que a lista seja limpa pra evitar duplicação do for;
-   
-    for (let i = 0; i < listaAmigos.length; i++ ){
+
+    for (let i = 0; i < listaAmigos.length; i++) {
         let naLista = document.createElement("li"); // Criando um elemento de lista;
         naLista.textContent = listaAmigos[i]; // Passando o nome do arary na lista a cada iteração;
         ul.appendChild(naLista); // Adiciona o elemento <li> como filho do <ul>;
@@ -28,5 +28,19 @@ function adicionarAmigo() {
         limparNome(); // Limpa o campo de entrada do nome;
     } else {
         alert("Por favor, insira um nome");
+    }
+}
+
+function sortearAmigo() {
+    let ul = document.getElementById("resultado");
+    ul.innerHTML = "";
+    aleatorio = Math.floor(Math.random() * listaAmigos.length);
+
+    if (listaAmigos.length == 0) {
+        alert("Adicione amigos antes de sortear! ");
+    } else {
+        let sorteado = document.createElement("li");
+        sorteado.innerHTML = listaAmigos[aleatorio];
+        ul.appendChild(sorteado);
     }
 }
