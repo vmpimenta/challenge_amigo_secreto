@@ -1,9 +1,9 @@
 <h1> Desafio Amigo Secreto </h1>
 
-## Sobre:
-    O challenge da Alura é uma abordagem de aprendizagem baseada em desafios desenvolvida pela Apple. Foi elaborado com o intuito de praticar a lógica de programação que aprendemos nos cursos de Lógica de programação explore funções e listas e Lógica de programação mergulhe em programação com JavaScript. 
+## Sobre: 
+O challenge da Alura é uma abordagem de aprendizagem baseada em desafios desenvolvida pela Apple. Foi elaborado com o intuito de praticar a lógica de programação que aprendemos nos cursos de Lógica de programação explore funções e listas e Lógica de programação mergulhe em programação com JavaScript. 
 
-    O desafio consiste em uma página web que permite ao usuário passar nomes para que seja realizado um sorteio de forma totalmente aleatória. 
+O desafio consiste em uma página web que permite ao usuário passar nomes para que seja realizado um sorteio de forma totalmente aleatória. 
 
 ## 🛠️ Passos do Desafio:
 * **Função para adicionar amigos:**
@@ -27,5 +27,5 @@
 <hr></hr>
 
 
-    Todo o código está comentado para melhor entendimento e também para permitir mudar a configuração do sorteio.
+**Todo o código está comentado para melhor entendimento e também para permitir mudar a configuração do sorteio.**
     
